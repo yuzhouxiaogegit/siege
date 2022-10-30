@@ -28,7 +28,7 @@ then
 domainName='https://www.baidu.com'
 fi
 
-if [[ $(find / -name "siege*" ) = "" ]];
+if [[ $(find / -name "siege-*" ) = "" ]];
 then
 	# 更新yum软件
 	yum -y update
