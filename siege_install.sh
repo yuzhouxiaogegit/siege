@@ -30,9 +30,6 @@ fi
 
 if [[ $(find / -name "siege-*" ) = "" ]];
 then
-	# 更新yum软件
-	yum -y update
-	
 	# 安装编译工具
 	yum install -y gcc make openssl-devel
 	
